@@ -14,7 +14,7 @@ window.addEventListener("resize", () => {
 
 // Generate frame path
 const currentFrame = (index) => {
-    return `frames/ezgif-frame-${String(index).padStart(3, '0')}.jpg`;
+    return `frame/ezgif-frame-${String(index).padStart(3, '0')}.jpg`;
 };
 
 const images = [];
